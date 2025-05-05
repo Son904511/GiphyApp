@@ -1,0 +1,7 @@
+@import "tailwindcss";
+/* Custom gradient utility for backgrounds */
+@layer components {
+  .gradient {
+    @apply bg-gradient-to-r from-teal-600 via-blue-600 to-pink-600;
+  }
+}
